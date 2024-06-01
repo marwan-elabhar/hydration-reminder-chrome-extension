@@ -44,6 +44,11 @@ h2 {
 
 .options {
     font-size: 14px;
+    font-weight: 500;
     cursor: pointer;
     color: white;
+    border: none;
+    background: none;
+    outline: none;
+
 }

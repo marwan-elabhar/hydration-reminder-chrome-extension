@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+input[type="text"] {
+    width: 50px;
+}
+
+
+
+input[type="submit"] {
+    padding: 8px 12px;
+    color: white;
+    font-weight: 600;
+    background: #4E57EC;
+    width: fit-content;
+}

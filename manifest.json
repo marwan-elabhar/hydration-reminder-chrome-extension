@@ -4,11 +4,20 @@
     "description": "Hydration Reminder reminds users to drink some water every set of interval",
     "manifest_version": 3,
     "author": "Marwan Ahmed",
-    "permissions": ["notifications", "background", "alarms"],
+    "permissions": [
+        "notifications",
+        "background",
+        "alarms",
+        "storage"
+    ],
     "background": {
         "service_worker": "background.js"
     },
-    "action":{
+    "options_ui": {
+        "page": "options/index.html",
+        "open_in_tab": false
+    },
+    "action": {
         "default_popup": "index.html",
         "default_title": "Hydration Reminder"
     }

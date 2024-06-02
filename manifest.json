@@ -1,7 +1,7 @@
 {
     "name": "Hydration Reminder",
-    "version": "1.0.0",
-    "description": "Hydration Reminder reminds users to drink some water every set of interval",
+    "version": "1.0.1",
+    "description": "Hydration Reminder reminds you to drink some water at the time interval that you want",
     "manifest_version": 3,
     "author": "Marwan Ahmed",
     "permissions": [
